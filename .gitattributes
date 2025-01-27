@@ -1,0 +1,6 @@
+# git lfs track *.npy
+# git lfs track **.txt
+# git lfs track *.ipynb
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
